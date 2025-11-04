@@ -9,8 +9,8 @@ Built as a technical assessment for **Ensolvers**, following SPA architecture wi
 
 **Frontend**
 
-- React 18 (Vite 5)
-- React Router 6
+- React 19 (Vite 7)
+- React Router 7
 - React-Bootstrap 2 + Bootstrap 5
 - Axios 1
 
@@ -19,35 +19,37 @@ Built as a technical assessment for **Ensolvers**, following SPA architecture wi
 - Node.js 20
 - Express 4
 - Sequelize 6 (ORM)
-- SQLite3 (default DB for local dev)
+- SQLite3 (local dev)
 - dotenv + cors
 
 ---
 
 ## ⚙️ Project Structure
 
-MUNOZ-24E0AE/
+````text
+Munoz-24e0ae/
 ├─ run.sh
 ├─ README.md
 ├─ backend/
-│ ├─ src/
-│ │ ├─ app.js
-│ │ ├─ server.js
-│ │ ├─ config/
-│ │ ├─ models/
-│ │ ├─ repositories/
-│ │ ├─ services/
-│ │ ├─ controllers/
-│ │ └─ routes/
-│ ├─ .env.example
-│ └─ package.json
+│  ├─ src/
+│  │  ├─ app.js
+│  │  ├─ server.js
+│  │  ├─ config/
+│  │  ├─ models/
+│  │  ├─ repositories/
+│  │  ├─ services/
+│  │  ├─ controllers/
+│  │  └─ routes/
+│  ├─ .env.example
+│  └─ package.json
 └─ frontend/
-├─ src/
-│ ├─ pages/
-│ ├─ components/
-│ └─ api/
-├─ index.html
-└─ package.json
+   ├─ src/
+   │  ├─ pages/
+   │  ├─ components/
+   │  └─ api/
+   ├─ index.html
+   └─ package.json
+
 
 ---
 
@@ -129,4 +131,4 @@ npm run dev
 # Terminal 2 - Frontend
 cd frontend
 npm run dev
-```
+````
