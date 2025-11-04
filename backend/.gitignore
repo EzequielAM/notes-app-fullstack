@@ -1,0 +1,12 @@
+# Dependencies
+node_modules
+
+# Build artifacts
+dist
+coverage
+
+# Env & DB
+.env
+*.sqlite
+*.sqlite-journal
+EOF

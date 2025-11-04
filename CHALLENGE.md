@@ -50,4 +50,3 @@ There is no restriction about the technology to be used, provided that:
 
 - **Login**: If you provide a login screen, document the default user/password in `README.md`.
 - **Live deployed version**: If you deploy the app (e.g., via Heroku), add the URL of the live running version to `README.md`.
-
