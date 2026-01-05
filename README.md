@@ -1,25 +1,33 @@
 # Notes App
 
 A simple full-stack web application for creating, archiving, and categorizing notes.  
+This project was developed as a personal full-stack application to practice frontend architecture with React and API integration using Node.js and Express.
+
+## ✨ Features
+
+- Create, edit, archive and delete notes
+- Categorize notes with multiple tags
+- Filter notes by status (active / archived)
+- Responsive UI built with reusable React components
+- REST API with clear separation of concerns (controllers, services, repositories)
 
 ---
 
 ## 🧩 Tech Stack
 
-**Frontend**
+### Frontend
+- React (Vite)
+- React Router
+- React-Bootstrap + Bootstrap
+- Axios
 
-- React 19 (Vite 7)
-- React Router 7
-- React-Bootstrap 2 + Bootstrap 5
-- Axios 1
+### Backend
+- Node.js
+- Express
+- Sequelize (ORM)
+- SQLite (local development)
+- dotenv, cors
 
-**Backend**
-
-- Node.js 20
-- Express 4
-- Sequelize 6 (ORM)
-- SQLite3 (local dev)
-- dotenv + cors
 
 ---
 
