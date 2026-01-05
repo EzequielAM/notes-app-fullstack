@@ -1,7 +1,6 @@
-# Ensolvers Notes App
+# Notes App
 
 A simple full-stack web application for creating, archiving, and categorizing notes.  
-Built as a technical assessment for **Ensolvers**, following SPA architecture with separate frontend and backend.
 
 ---
 
@@ -64,8 +63,7 @@ Munoz-24e0ae/
 ### 2️⃣ Clone and run
 
 ```bash
-git clone https://github.com/hirelens-challenges/Munoz-24e0ae.git
-cd Munoz-24e0ae
+git clone https://github.com/EzequielAM/notes-app-fullstack
 bash run.sh
 
 This script:
